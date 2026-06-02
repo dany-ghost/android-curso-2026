@@ -1,15 +1,24 @@
-# Práctica 1 - Hola Android
+ Práctica 1 - Hola Android
+1. ¿Qué contiene AndroidManifest.xml?
 
-## Respuestas
+Contiene la configuración principal de la aplicación, como actividades, permisos y datos generales de la app.
 
-1. AndroidManifest.xml contiene la configuración principal de la aplicación, actividades y permisos.
+2. ¿Qué es android:name en <activity>?
 
-2. android:name indica la clase de la Activity que Android debe ejecutar.
+Es el atributo que indica qué clase Activity debe ejecutar Android.
 
-3. minSdk es la versión mínima de Android compatible con la aplicación.
+3. ¿Cuál es el valor de minSdk?
 
-4. compileSdk es la versión del SDK utilizada para compilar la aplicación.
+Es la versión mínima de Android que puede ejecutar la aplicación. En este proyecto es 24.
 
-5. La versión de Kotlin está definida en libs.versions.toml.
+4. ¿Cuál es el valor de compileSdk?
 
-6. MainActivity utiliza setContent{} para mostrar la interfaz con Jetpack Compose.
+Es la versión del SDK utilizada para compilar la aplicación.
+
+5. ¿Qué versión de Kotlin está configurada?
+
+Es la versión de Kotlin definida en el archivo libs.versions.toml.
+
+6. ¿Qué función llama MainActivity para mostrar la UI?
+
+La función setContent { }, que muestra la interfaz de usuario con Jetpack Compose.
