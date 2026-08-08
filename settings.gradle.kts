@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HolaAndroid"
+rootProject.name = "My Application"
 include(":app")

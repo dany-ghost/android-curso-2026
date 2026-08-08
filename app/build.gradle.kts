@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.polanco.holaandroid"
+    namespace = "com.example.myapplication"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.polanco.holaandroid"
+        applicationId = "com.example.myapplication"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -23,11 +23,9 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            optimization {
+                enable = false
+            }
         }
     }
     compileOptions {
